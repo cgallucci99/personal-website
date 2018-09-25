@@ -4,3 +4,19 @@ body{
 .section{
 	padding-top: 50px;
 }
+.header {
+	text-align: center;
+	height: 710px;
+	background: center / cover no-repeat url(https://images.unsplash.com/photo-1518640467707-6811f4a6ab73?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5e13608bf6071802b8df2c54c5205213&auto=format&fit=crop&w=800&q=80);
+}
+.header>.container-fluid{
+	height: 100%;
+	padding: 0;
+}
+.jumbotron {
+	margin: none;
+	height: 100%;
+	width: 100%;
+	background-color: #eee9;
+	padding-top: 200px;
+}
