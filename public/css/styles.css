@@ -1,5 +1,6 @@
 body{
 	/*padding-top: 50px;*/
+	position: relative;
 }
 #nav{
 	position: sticky;
@@ -7,12 +8,13 @@ body{
 }
 .section{
 	padding-top: 50px;
+	height: 760px;
 }
 .header {
 	text-align: center;
 	font-family: 'IBM Plex Mono', monospace;
 	font-style: italic;
-	height: 730px;
+	height: 760px;
 	background: center / cover no-repeat url(https://images.unsplash.com/photo-1529236183275-4fdcf2bc987e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b1799c4b65f757386e977ba79075ee8c&auto=format&fit=crop&w=1047&q=80);
 	/*Photo by Sergi Kabrera on Unsplash*/
 }

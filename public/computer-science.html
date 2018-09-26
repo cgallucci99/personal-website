@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="./css/bootstrap.min.css">
 	<link rel="stylesheet" href="./css/styles.css">
 </head>
-<body>
+<body data-spy="scroll" data-target="#scroll-spy-target">
 	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container-fluid">
 			<div class="navbar-header">
@@ -29,11 +29,15 @@
         					<li><a href="music.html">Music</a></li>
         				</ul>
         			</li>
-		    		<li><a href="#skills">Skills</a></li>
-		    		<li><a href="#experience">Experience</a></li>
-		    		<li><a href="#coursework">Coursework</a></li>
-		    		<li><a href="#contact">Contact</a></li>
-		    	</ul>
+        		</ul>
+		    	<div id="scroll-spy-target">
+		    		<ul class="nav navbar-nav">
+			    		<li><a class="page-scroll" href="#skills">Skills</a></li>
+			    		<li><a class="page-scroll" href="#experience">Experience</a></li>
+			    		<li><a class="page-scroll" href="#coursework">Coursework</a></li>
+			    		<li><a class="page-scroll" href="#contact">Contact</a></li>
+			    	</ul>
+			    </div>
 		    </div>
 		</div>
 	</nav>
@@ -56,5 +60,6 @@
 	</footer>
 	<script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
 	<script type="text/javascript" src="./js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="./js/main.js"></script>
 </body>
 </html>
