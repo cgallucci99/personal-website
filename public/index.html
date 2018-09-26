@@ -6,15 +6,20 @@
 	<title>Cam Gallucci</title>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 	<link rel="stylesheet" href="./css/bootstrap.min.css">
-	<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|Lora:400,700|Karla" rel="stylesheet">
 	<link rel="stylesheet" href="./css/styles.css">
 </head>
 <body data-spy="scroll" data-target="#scroll-spy-target" data-offset="0">
-	<header class="header">
+	<header class="header" id="header">
 		<div class="container-fluid ">
 			<div class="jumbotron">
 				<h1>Cam Gallucci</h1>
-				<h4>Programming & Music</h4>
+				<h4>Programming &amp Music</h4>
+				<a class="page-scroll" href="#about">
+					<div class="floating">
+						<i class="fas fa-angle-double-down"></i>
+					</div>
+				</a>
 			</div>
 		</div>
 	</header>
@@ -28,7 +33,7 @@
 			    		<span class="icon-bar"></span>
 			    		<span class="icon-bar"></span>
 			    	</button>
-			    	<a class="navbar-brand" href="#">Cam Gallucci</a>
+			    	<a class="navbar-brand page-scroll" href="#header">Cam Gallucci</a>
 			    </div>
 			    <div class="collapse navbar-collapse" id="navbar-collapse">
 			    	<ul class="nav navbar-nav">
@@ -52,17 +57,24 @@
 			</div>
 		</nav>
 	</div>
-	<div>
+	<div class="container">
 		<div class="section" id="about">
-			<h1>About Me</h1>
+			<div class="section-heading">
+				<h1>About Me</h1>
+			</div>
 			<p>I am a student at the University of Miami pursuing a BS in Computer Science and a minor in Physics. I am also a member of Miami University's Men's Glee Club, where I sing bass, as well as Open Fifth, an all male a capella group on campus, where I sing bass, beatbox, and arrange.</p>
 		</div>
 		<div class="section" id="resume">
-			<h1>Resume</h1>
+			<div class="section-heading">
+				<h1>Resume</h1>
+			</div>
 			<a href="./files/Resume.pdf">PDF of Resume</a>
 			<p>If you wish to learn more about my Computer Science skills, <a href="computer-science.html">click here</a></p>
 		</div>
 		<div class="section" id="social-media">
+			<div class="section-heading">
+				<h1>Social Media</h1>
+			</div>
 			<a href="https://www.linkedin.com/in/cam-gallucci-4421b4170"><i class="fab fa-linkedin"></i></a>
 			<a href="https://miamioh.joinhandshake.com/users/5964175"><i class="far fa-handshake"></i></a>
 			<a href="https://www.instagram.com/cgallucci99/"><i class="fab fa-instagram"></i></a>

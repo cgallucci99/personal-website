@@ -5,15 +5,44 @@ body{
 #nav{
 	position: sticky;
 	top: 0;
+	z-index: 9999;
+}
+nav{
+	font-family: 'Karla', sans-serif;
+	text-transform: none;
 }
 .section{
 	padding-top: 50px;
 	height: 760px;
 }
+.section p{
+	font-family: 'Lora', serif;
+	font-size: 17px;
+}
+.section-heading{
+	position: sticky;
+	top: 50px;
+	background-color: #fff;
+	text-align: center;
+}
+.section-heading h1{
+	height:90%;
+	background-color: #fff;
+	border: 10px solid #fff;
+	border-radius: 4px;
+	font-family: 'Lora', serif;
+	font-weight: 700;
+}
+.fa-angle-double-down{
+	font-size: 30px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	color: #333;
+}
 .header {
 	text-align: center;
 	font-family: 'IBM Plex Mono', monospace;
-	font-style: italic;
+	font-style: normal;
 	height: 760px;
 	background: center / cover no-repeat url(https://images.unsplash.com/photo-1529236183275-4fdcf2bc987e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b1799c4b65f757386e977ba79075ee8c&auto=format&fit=crop&w=1047&q=80);
 	/*Photo by Sergi Kabrera on Unsplash*/
@@ -28,6 +57,26 @@ body{
 	width: 100%;
 	background-color: #eee9;
 	padding-top: 200px;
+}
+.floating{
+
+    animation-name: floating;
+    -webkit-animation-name: floating;
+    animation-duration: 1.5s;
+    -webkit-animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+}
+@keyframes floating {
+	0% {
+		transform: translateY(0%);
+	}
+	50% {
+		transform: translateY(18%);
+	}	
+	100% {
+		transform: translateY(0%);
+	}			
 }
 .jumbotron h1{
 	font-size: 45px;
