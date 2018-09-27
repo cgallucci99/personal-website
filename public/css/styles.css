@@ -13,7 +13,7 @@ nav{
 }
 .section{
 	padding-top: 50px;
-	height: 760px;
+	/* height: 600px; */
 }
 .section p{
 	font-family: 'Lora', serif;
@@ -24,6 +24,7 @@ nav{
 	top: 50px;
 	background-color: #fff;
 	text-align: center;
+	z-index: 50;
 }
 .section-heading h1{
 	height:90%;
