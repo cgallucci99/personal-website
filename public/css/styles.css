@@ -12,27 +12,56 @@ nav{
 	font-family: 'Karla', sans-serif;
 	text-transform: none;
 }
-.section{
-	padding-top: 50px;
-	/* height: 600px; */
+.navbar{
+	margin-bottom: 0;
 }
-.section {
+.section-1{
 	font-family: 'Lora', serif;
 	font-size: 17px;
+	background-color: #ddd;
+	height: 760px;
 }
-.section-heading{
+.section-2{
+	font-family: 'Lora', serif;
+	font-size: 17px;
+	background-color: #eee;
+	height: 760px;
+}
+.section-heading-1{
+	position: sticky;
+	top: 50px;
+	background-color: #ddd9;
+	text-align: center;
+	z-index: 50;
+}
+.section-heading-1 h1{
+	height:90%;
+	background-color: #ddd9;
+	padding: 10px;
+	font-family: 'Lora', serif;
+	font-weight: 700;
+	margin: 0;
+}
+.section-heading-2{
 	position: sticky;
 	top: 50px;
 	background-color: #eee9;
 	text-align: center;
 	z-index: 50;
 }
-.section-heading h1{
+.section-heading-2 h1{
 	height:90%;
 	background-color: #eee9;
 	padding: 10px;
 	font-family: 'Lora', serif;
 	font-weight: 700;
+	margin: 0;
+}
+.thumbnail {
+	border-radius: 10px;
+}
+.thumbnail img {
+	border-radius: 10px;
 }
 .fa-angle-double-down{
 	font-size: 30px;
@@ -46,7 +75,11 @@ nav{
 	font-style: normal;
 	height: 760px;
 	background: center / cover no-repeat url(https://images.unsplash.com/photo-1529236183275-4fdcf2bc987e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b1799c4b65f757386e977ba79075ee8c&auto=format&fit=crop&w=1047&q=80);
-	/*Photo by Sergi Kabrera on Unsplash*/
+	background-attachment: fixed;
+	Photo by Sergi Kabrera on Unsplash
+}
+.section-1 .container, .section-2 .container{
+	padding-top: 70px;
 }
 .header>.container-fluid{
 	height: 100%;
@@ -64,6 +97,9 @@ nav{
 	width: 100%;
 	background-color: #eee9;
 	padding-top: 200px;
+}
+.jumbotron h1{
+	font-size: 45px;
 }
 .floating{
 
@@ -84,9 +120,6 @@ nav{
 	100% {
 		transform: translateY(0%);
 	}			
-}
-.jumbotron h1{
-	font-size: 45px;
 }
 
 @media screen and (min-width: 768px){
