@@ -11,3 +11,7 @@ $('a.page-scroll').click(function() {
 	  }
 	}
 });
+function fadeIn() {
+	$('body').css('display', 'block');
+	$('body').addClass('animate-opacity');
+}
