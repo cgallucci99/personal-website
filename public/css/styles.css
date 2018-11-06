@@ -38,8 +38,9 @@ nav{
 	height:90%;
 	background-color: #ddd9;
 	padding: 10px;
-	font-family: 'Lora', serif;
-	font-weight: 700;
+	font-family: 'Rockitt', serif;
+	font-weight: 600;
+	color: #695569;
 	margin: 0;
 }
 .section-heading-2{
@@ -53,8 +54,9 @@ nav{
 	height:90%;
 	background-color: #eee9;
 	padding: 10px;
-	font-family: 'Lora', serif;
-	font-weight: 700;
+	font-family: 'Rockitt', serif;
+	font-weight: 600;
+	color: #695569;
 	margin: 0;
 }
 .thumbnail {
@@ -76,7 +78,7 @@ nav{
 	height: 760px;
 	background: center / cover no-repeat url(https://images.unsplash.com/photo-1529236183275-4fdcf2bc987e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b1799c4b65f757386e977ba79075ee8c&auto=format&fit=crop&w=1047&q=80);
 	background-attachment: fixed;
-	Photo by Sergi Kabrera on Unsplash
+	/* Photo by Sergi Kabrera on Unsplash */
 }
 .section-1 .container, .section-2 .container{
 	padding-top: 70px;
@@ -109,6 +111,10 @@ nav{
 	-webkit-animation-duration: 1.5s;
 	animation-iteration-count: infinite;
 	-webkit-animation-iteration-count: infinite;
+}
+footer{
+	text-align: center;
+	font-family: 'Karla', sans-serif;
 }
 
 .animate-opacity {
