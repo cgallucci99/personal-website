@@ -19,13 +19,13 @@ nav{
 	font-family: 'Lora', serif;
 	font-size: 17px;
 	background-color: #ddd;
-	height: 760px;
+	padding-bottom: 85px;
 }
 .section-2{
 	font-family: 'Lora', serif;
 	font-size: 17px;
 	background-color: #eee;
-	height: 760px;
+	padding-bottom: 85px;
 }
 .section-heading-1{
 	position: sticky;
