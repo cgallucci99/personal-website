@@ -65,6 +65,16 @@ nav{
 .thumbnail img {
 	border-radius: 10px;
 }
+div.thumbnail{
+	background-color: transparent;
+}
+div.thumbnail img {
+	height: 100px;
+/*	padding: 4px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;*/
+}
 .fa-angle-double-down{
 	font-size: 30px;
 	margin-top: 50px;
