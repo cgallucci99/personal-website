@@ -113,6 +113,9 @@ div.thumbnail img {
 .jumbotron h1{
 	font-size: 45px;
 }
+.exp-pics{
+	height: 130px;
+}
 .floating{
 
 	animation-name: floating;
@@ -169,5 +172,8 @@ footer{
 	.jumbotron h4{
 		font-size: 30px;
 		line-height: 50px;
+	}
+	.exp-pics{
+		height: 300px;
 	}
 }
