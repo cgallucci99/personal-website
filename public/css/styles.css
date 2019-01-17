@@ -4,6 +4,7 @@ body{
 	background-color: #eee;
 }
 #nav{
+	position: -webkit-sticky;
 	position: sticky;
 	top: 0;
 	z-index: 9999;
@@ -28,6 +29,7 @@ nav{
 	padding-bottom: 85px;
 }
 .section-heading-1{
+	position: -webkit-sticky;
 	position: sticky;
 	top: 50px;
 	background-color: #ddd9;
@@ -44,6 +46,7 @@ nav{
 	margin: 0;
 }
 .section-heading-2{
+	position: -webkit-sticky;
 	position: sticky;
 	top: 50px;
 	background-color: #eee9;
@@ -132,15 +135,33 @@ footer{
 
 .animate-opacity {
 	display: block;
-    animation: opac 2s;
-    animation-name: opac;
-    animation-duration: 2s;
-    animation-timing-function: ease;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-    animation-fill-mode: none;
-    animation-play-state: running;
+    -webkit-animation: opac 2s;
+            animation: opac 2s;
+    -webkit-animation-name: opac;
+            animation-name: opac;
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-timing-function: ease;
+            animation-timing-function: ease;
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+    -webkit-animation-iteration-count: 1;
+            animation-iteration-count: 1;
+    -webkit-animation-direction: normal;
+            animation-direction: normal;
+    -webkit-animation-fill-mode: none;
+            animation-fill-mode: none;
+    -webkit-animation-play-state: running;
+            animation-play-state: running;
+}
+@-webkit-keyframes opac{
+	0% {
+	    opacity: 0;
+	}
+
+	100% {
+	    opacity: 1;
+	}
 }
 @keyframes opac{
 	0% {
@@ -152,15 +173,33 @@ footer{
 	}
 }
 
-@keyframes floating {
+@-webkit-keyframes floating {
 	0% {
-		transform: translateY(0%);
+		-webkit-transform: translateY(0%);
+		        transform: translateY(0%);
 	}
 	50% {
-		transform: translateY(18%);
+		-webkit-transform: translateY(18%);
+		        transform: translateY(18%);
 	}	
 	100% {
-		transform: translateY(0%);
+		-webkit-transform: translateY(0%);
+		        transform: translateY(0%);
+	}			
+}
+
+@keyframes floating {
+	0% {
+		-webkit-transform: translateY(0%);
+		        transform: translateY(0%);
+	}
+	50% {
+		-webkit-transform: translateY(18%);
+		        transform: translateY(18%);
+	}	
+	100% {
+		-webkit-transform: translateY(0%);
+		        transform: translateY(0%);
 	}			
 }
 
