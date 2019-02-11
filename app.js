@@ -14,6 +14,9 @@ app.get("/music", function(req, res){
 app.get("/computer-science", function(req, res) {
     res.render('computer-science');
 });
+app.get("*", function(req, res) {
+    res.render("not-found");
+});
 
 var port = process.env.PORT || 3000;
 
