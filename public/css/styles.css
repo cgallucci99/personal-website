@@ -88,7 +88,8 @@ div.thumbnail img {
 	text-align: center;
 	font-family: 'IBM Plex Mono', monospace;
 	font-style: normal;
-	height: 760px;
+	height: 100vh;
+	/*min-height: 100vh;*/
 	background: center / cover no-repeat url(https://images.unsplash.com/photo-1529236183275-4fdcf2bc987e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b1799c4b65f757386e977ba79075ee8c&auto=format&fit=crop&w=1047&q=80);
 	background-attachment: fixed;
 	/* Photo by Sergi Kabrera on Unsplash */
@@ -97,7 +98,7 @@ div.thumbnail img {
 	padding-top: 70px;
 }
 .header>.container-fluid{
-	height: 100%;
+	height: inherit;
 	padding: 0;
 }
 .carousel-buttons {
@@ -108,7 +109,7 @@ div.thumbnail img {
 }
 .jumbotron {
 	margin: none;
-	height: 100%;
+	height: inherit;
 	width: 100%;
 	background-color: #eee9;
 	padding-top: 200px;
