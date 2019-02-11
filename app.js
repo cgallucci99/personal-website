@@ -15,4 +15,8 @@ app.get("/computer-science", function(req, res) {
     res.render('computer-science');
 });
 
-app.listen(process.env.PORT, process.env.IP);
+var port = process.env.PORT || 3000;
+
+app.listen(port, process.env.IP, function() {
+	console.log("app is running on " + port);
+});
