@@ -3,15 +3,29 @@ body{
 	position: relative;
 	background-color: #eee;
 }
-#nav{
-	position: -webkit-sticky;
-	position: sticky;
-	top: 0;
-	z-index: 9999;
-}
 nav{
 	font-family: 'Karla', sans-serif;
 	text-transform: none;
+}
+footer{
+	text-align: center;
+	font-family: 'Karla', sans-serif;
+}
+div.thumbnail{
+	background-color: transparent;
+}
+div.thumbnail img {
+	height: 100px;
+/*	padding: 4px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;*/
+}
+.thumbnail {
+	border-radius: 10px;
+}
+.thumbnail img {
+	border-radius: 10px;
 }
 .navbar{
 	margin-bottom: 0;
@@ -20,12 +34,6 @@ nav{
 	font-family: 'Lora', serif;
 	font-size: 17px;
 	background-color: #ddd;
-	padding-bottom: 85px;
-}
-.section-2{
-	font-family: 'Lora', serif;
-	font-size: 17px;
-	background-color: #eee;
 	padding-bottom: 85px;
 }
 .section-heading-1{
@@ -45,6 +53,12 @@ nav{
 	color: #695569;
 	margin: 0;
 }
+.section-2{
+	font-family: 'Lora', serif;
+	font-size: 17px;
+	background-color: #eee;
+	padding-bottom: 85px;
+}
 .section-heading-2{
 	position: -webkit-sticky;
 	position: sticky;
@@ -62,21 +76,8 @@ nav{
 	color: #695569;
 	margin: 0;
 }
-.thumbnail {
-	border-radius: 10px;
-}
-.thumbnail img {
-	border-radius: 10px;
-}
-div.thumbnail{
-	background-color: transparent;
-}
-div.thumbnail img {
-	height: 100px;
-/*	padding: 4px;
-	margin-bottom: 20px;
-	margin-left: auto;
-	margin-right: auto;*/
+.section-1 .container, .section-2 .container{
+	padding-top: 70px;
 }
 .fa-angle-double-down{
 	font-size: 30px;
@@ -93,9 +94,6 @@ div.thumbnail img {
 	background: center / cover no-repeat url(https://images.unsplash.com/photo-1529236183275-4fdcf2bc987e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b1799c4b65f757386e977ba79075ee8c&auto=format&fit=crop&w=1047&q=80);
 	background-attachment: fixed;
 	/* Photo by Sergi Kabrera on Unsplash */
-}
-.section-1 .container, .section-2 .container{
-	padding-top: 70px;
 }
 .header>.container-fluid{
 	height: inherit;
@@ -119,6 +117,8 @@ div.thumbnail img {
 }
 .exp-pics{
 	height: 130px;
+	border-radius: 5px;
+	float:right;
 }
 .floating{
 
@@ -128,10 +128,6 @@ div.thumbnail img {
 	-webkit-animation-duration: 1.5s;
 	animation-iteration-count: infinite;
 	-webkit-animation-iteration-count: infinite;
-}
-footer{
-	text-align: center;
-	font-family: 'Karla', sans-serif;
 }
 
 .animate-opacity {
@@ -154,6 +150,12 @@ footer{
             animation-fill-mode: none;
     -webkit-animation-play-state: running;
             animation-play-state: running;
+}
+#nav{
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	z-index: 9999;
 }
 @-webkit-keyframes opac{
 	0% {
