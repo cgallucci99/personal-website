@@ -129,28 +129,6 @@ div.thumbnail img {
 	animation-iteration-count: infinite;
 	-webkit-animation-iteration-count: infinite;
 }
-
-.animate-opacity {
-	display: block;
-    -webkit-animation: opac 2s;
-            animation: opac 2s;
-    -webkit-animation-name: opac;
-            animation-name: opac;
-    -webkit-animation-duration: 2s;
-            animation-duration: 2s;
-    -webkit-animation-timing-function: ease;
-            animation-timing-function: ease;
-    -webkit-animation-delay: 0s;
-            animation-delay: 0s;
-    -webkit-animation-iteration-count: 1;
-            animation-iteration-count: 1;
-    -webkit-animation-direction: normal;
-            animation-direction: normal;
-    -webkit-animation-fill-mode: none;
-            animation-fill-mode: none;
-    -webkit-animation-play-state: running;
-            animation-play-state: running;
-}
 #nav{
 	position: -webkit-sticky;
 	position: sticky;

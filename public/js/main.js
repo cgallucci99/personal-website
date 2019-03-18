@@ -6,12 +6,8 @@ $('a.page-scroll').click(function() {
 	  if (target.length) {
 	    $('html,body').animate({
 	      scrollTop: target.offset().top
-	    }, 900);
+	    }, 700);
 	    return false;
 	  }
 	}
 });
-function fadeIn() {
-	$('body').css('display', 'block');
-	$('body').addClass('animate-opacity');
-}
