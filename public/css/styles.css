@@ -44,7 +44,8 @@ div.thumbnail img {
 	text-align: center;
 	z-index: 50;
 }
-.section-heading-1 h1{
+.section-heading-1 h2{
+	font-style: 36px;
 	height:90%;
 	background-color: #ddd9;
 	padding: 10px;
@@ -67,7 +68,8 @@ div.thumbnail img {
 	text-align: center;
 	z-index: 50;
 }
-.section-heading-2 h1{
+.section-heading-2 h2{
+	font-style: 36px;
 	height:90%;
 	background-color: #eee9;
 	padding: 10px;
