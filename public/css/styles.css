@@ -11,6 +11,9 @@ footer{
 	text-align: center;
 	font-family: 'Karla', sans-serif;
 }
+hr {
+	border-top: 1px solid #aaa;
+}
 div.thumbnail{
 	background-color: transparent;
 }
@@ -120,7 +123,6 @@ div.thumbnail img {
 .exp-pics{
 	height: 130px;
 	border-radius: 5px;
-	float:right;
 }
 .floating{
 
