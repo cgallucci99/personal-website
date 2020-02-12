@@ -133,6 +133,9 @@ div.thumbnail img {
 	animation-iteration-count: infinite;
 	-webkit-animation-iteration-count: infinite;
 }
+.thumbnail {
+	border: 1px solid #eee;
+}
 #nav{
 	position: -webkit-sticky;
 	position: sticky;

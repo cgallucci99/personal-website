@@ -12,7 +12,7 @@ app.get("/music", function(req, res){
     res.render("music");
 });
 app.get("/computer-science", function(req, res) {
-    res.render('computer-science');
+    res.redirect('/');
 });
 app.get("*", function(req, res) {
     res.render("not-found");
